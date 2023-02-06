@@ -87,7 +87,7 @@
                     },
                     success: function(result) {
                         var result = eval('(' + result + ')');
-                        if (result.errorMsg) {
+                        if (result.errorMsg) {                            
                             $.messager.show({
                                 title: 'Error',
                                 msg: result.errorMsg
@@ -109,12 +109,13 @@
                                 id_bod: row.id_bod
                             }, function(result) {
                                 if (result.success) {
-                                    $('#dg').datagrid('reload'); // reload the user data
-                                } else {
                                     $.messager.show({ // show error message
                                         title: 'Error',
                                         msg: result.errorMsg
                                     });
+                                } else {
+                                    $('#dg').datagrid('reload');
+                                    
                                 }
                             }, 'json');
                         }
