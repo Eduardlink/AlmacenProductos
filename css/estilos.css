@@ -1,0 +1,64 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+body header{
+margin-bottom: -5px;
+}
+
+.menu{
+    background-color: rgb(79, 11, 189);
+    color:white;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+nav ul {
+    position: relative;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    width:24%;
+    line-height: 50px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+article{
+    position: relative;
+    padding-top: 20px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(39, 4, 100);
+    Color: white;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
